@@ -1,0 +1,348 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: wl-kbd-config 0.2.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-04-17 00:00+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: Russian\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/settings_window.vala:74
+msgid "Keyboard Layout"
+msgstr ""
+
+#: src/settings_window.vala:90
+msgid "Configure layouts and switching for %s"
+msgstr ""
+
+#: src/settings_window.vala:114 src/settings_window.vala:623 src/settings_window.vala:630
+msgid "Cancel"
+msgstr ""
+
+#: src/settings_window.vala:115
+msgid "Restore values from window open"
+msgstr ""
+
+#: src/settings_window.vala:119
+msgid "Apply"
+msgstr ""
+
+#: src/settings_window.vala:123
+msgid "Close"
+msgstr ""
+
+#: src/settings_window.vala:124
+msgid "Close this window"
+msgstr ""
+
+#: src/settings_window.vala:120
+msgid "Apply keyboard settings to WM config"
+msgstr ""
+
+#: src/settings_window.vala:159
+msgid "Apply to WM"
+msgstr ""
+
+#: src/settings_window.vala:160
+msgid "Apply current XKB settings to the detected window manager"
+msgstr ""
+
+#: src/settings_window.vala:212
+msgid "Configured layouts"
+msgstr ""
+
+#: src/settings_window.vala:227
+msgid "Configured keyboard layouts"
+msgstr ""
+
+#: src/settings_window.vala:258
+msgid "Add..."
+msgstr ""
+
+#: src/settings_window.vala:260
+msgid "Add new keyboard layout"
+msgstr ""
+
+#: src/settings_window.vala:266
+msgid "Remove"
+msgstr ""
+
+#: src/settings_window.vala:268
+msgid "Remove selected layout"
+msgstr ""
+
+#: src/settings_window.vala:274
+msgid "Up"
+msgstr ""
+
+#: src/settings_window.vala:276
+msgid "Move selected layout up in priority"
+msgstr ""
+
+#: src/settings_window.vala:282
+msgid "Down"
+msgstr ""
+
+#: src/settings_window.vala:284
+msgid "Move selected layout down in priority"
+msgstr ""
+
+#: src/settings_window.vala:301
+msgid "Switching"
+msgstr ""
+
+#: src/settings_window.vala:314
+msgid "Shortcut:"
+msgstr ""
+
+#: src/settings_window.vala:316
+msgid "Keyboard shortcut to switch between layouts"
+msgstr ""
+
+#: src/settings_window.vala:318
+msgid "Select keyboard layout switching shortcut"
+msgstr ""
+
+#: src/settings_window.vala:319 src/settings_window.vala:484
+msgid "Alt+Shift"
+msgstr ""
+
+#: src/settings_window.vala:320
+msgid "Both Shifts"
+msgstr ""
+
+#: src/settings_window.vala:321 src/settings_window.vala:488
+msgid "Ctrl+Shift"
+msgstr ""
+
+#: src/settings_window.vala:322 src/settings_window.vala:490
+msgid "Caps Lock"
+msgstr ""
+
+#: src/settings_window.vala:323 src/settings_window.vala:492
+msgid "Win+Space"
+msgstr ""
+
+#: src/settings_window.vala:324
+msgid "Menu key"
+msgstr ""
+
+#: src/settings_window.vala:325
+msgid "Left Win"
+msgstr ""
+
+#: src/settings_window.vala:326 src/settings_window.vala:496
+msgid "Right Alt"
+msgstr ""
+
+#: src/settings_window.vala:327 src/settings_window.vala:498
+msgid "User-defined"
+msgstr ""
+
+#: src/settings_window.vala:333
+msgid "Custom XKB option:"
+msgstr ""
+
+#: src/settings_window.vala:335
+msgid "Custom XKB option for layout switching"
+msgstr ""
+
+#: src/settings_window.vala:337
+msgid "Custom XKB options (e.g., grp:ctrl_shift_toggle)"
+msgstr ""
+
+#: src/settings_window.vala:363 src/settings_window.vala:605
+msgid "XKB_DEFAULT_LAYOUT="
+msgstr ""
+
+#: src/settings_window.vala:365
+msgid "Preview of XKB_DEFAULT_LAYOUT environment variable"
+msgstr ""
+
+#: src/settings_window.vala:366 src/settings_window.vala:606
+msgid "XKB_DEFAULT_OPTIONS="
+msgstr ""
+
+#: src/settings_window.vala:368
+msgid "Preview of XKB_DEFAULT_OPTIONS environment variable"
+msgstr ""
+
+#: src/settings_window.vala:414
+msgid "Failed to initialize environment file"
+msgstr ""
+
+#: src/settings_window.vala:486
+msgid "Shift+Caps Lock"
+msgstr ""
+
+#: src/settings_window.vala:494
+msgid "Menu"
+msgstr ""
+
+#: src/settings_window.vala:613
+msgid "No layouts found"
+msgstr ""
+
+#: src/settings_window.vala:614
+msgid "Unable to read bundled keyboard layouts catalog"
+msgstr ""
+
+#: src/settings_window.vala:620
+msgid "Add Layout"
+msgstr ""
+
+#: src/settings_window.vala:624 src/settings_window.vala:638
+msgid "Add"
+msgstr ""
+
+#: src/settings_window.vala:631
+msgid "Cancel and close dialog"
+msgstr ""
+
+#: src/settings_window.vala:639
+msgid "Add selected layout to the list"
+msgstr ""
+
+#: src/settings_window.vala:652
+msgid "Select a layout or enter a manual code below"
+msgstr ""
+
+#: src/settings_window.vala:654
+msgid "Select a layout from the list or enter it manually below"
+msgstr ""
+
+#: src/settings_window.vala:658
+msgid "Search layouts by code or description"
+msgstr ""
+
+#: src/settings_window.vala:659
+msgid "Search by code or description"
+msgstr ""
+
+#: src/settings_window.vala:675
+msgid "Select a keyboard layout or variant"
+msgstr ""
+
+#: src/settings_window.vala:688
+msgid "Flag"
+msgstr ""
+
+#: src/settings_window.vala:695
+msgid "Layout"
+msgstr ""
+
+#: src/settings_window.vala:703
+msgid "Description"
+msgstr ""
+
+#: src/settings_window.vala:717
+msgid "Manual layout code:"
+msgstr ""
+
+#: src/settings_window.vala:719
+msgid "Enter layout code manually (e.g., us, ru, de)"
+msgstr ""
+
+#: src/settings_window.vala:723
+msgid "Enter layout code manually (e.g., us, ru, de, us(intl))"
+msgstr ""
+
+#: src/settings_window.vala:724
+msgid "e.g., us, ru, de, us(intl)"
+msgstr ""
+
+#: src/settings_window.vala:749
+msgid "Invalid layout"
+msgstr ""
+
+#: src/settings_window.vala:749
+msgid "Select a layout or enter a layout code."
+msgstr ""
+
+#: src/settings_window.vala:751
+msgid "Invalid layout code"
+msgstr ""
+
+#: src/settings_window.vala:751
+msgid "Layout code contains invalid characters."
+msgstr ""
+
+#: src/settings_window.vala:753
+msgid "Duplicate layout"
+msgstr ""
+
+#: src/settings_window.vala:753
+msgid "This layout is already in the list."
+msgstr ""
+
+#: src/settings_window.vala:1029
+msgid "Add at least one layout."
+msgstr ""
+
+#: src/settings_window.vala:1039
+msgid "Invalid layout code:"
+msgstr ""
+
+#: src/settings_window.vala:1047
+msgid "Custom XKB option cannot be empty."
+msgstr ""
+
+#: src/settings_window.vala:1127
+msgid "labwc reload failed"
+msgstr ""
+
+#: src/settings_window.vala:1138
+msgid "Cannot apply settings"
+msgstr ""
+
+#: src/settings_window.vala:1149
+msgid "Failed to save environment"
+msgstr ""
+
+#: src/settings_window.vala:1158
+msgid "Settings saved"
+msgstr ""
+
+#: src/settings_window.vala:1159
+msgid "Configuration was written, but reload failed: "
+msgstr ""
+
+#: src/settings_window.vala:1168
+msgid "Changes applied. labwc was reloaded."
+msgstr ""
+
+#: src/settings_window.vala:1242
+msgid "Changes saved. Restart your WM to see the result."
+msgstr ""
+
+#: src/settings_window.vala:1183
+msgid "Cannot apply to WM"
+msgstr ""
+
+#: src/settings_window.vala:1194
+msgid "Apply XKB configuration to %s?"
+msgstr ""
+
+#: src/settings_window.vala:1197
+msgid ""
+"This will modify your %s configuration file.\\n"
+"A backup will be created automatically before applying.\\n"
+"\\n"
+"Do you want to continue?"
+msgstr ""
+
+#: src/settings_window.vala:1231
+msgid "Failed to apply to WM"
+msgstr ""
+
+#: src/settings_window.vala:1232 src/settings_window.vala:1235
+msgid "Could not modify %s configuration."
+msgstr ""
+
+#: src/settings_window.vala:1249
+msgid "Error applying to WM"
+msgstr ""

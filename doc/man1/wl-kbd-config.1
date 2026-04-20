@@ -1,0 +1,52 @@
+.TH WL-KBD-CONFIG 1 "April 2026" "wl-kbd-config 0.2"
+.SH NAME
+wl-kbd-config \- Keyboard layout configuration utility for Wayland window managers
+.SH SYNOPSIS
+.B wl-kbd-config
+.SH DESCRIPTION
+wl-kbd-config is a keyboard layout configuration utility for Wayland window managers. It provides a graphical interface for configuring X keyboard layouts, models, and options.
+
+The application can detect and apply XKB configuration to:
+.BR labwc ,
+.BR Sway ,
+.BR Wayfire ,
+.BR River ,
+and
+.BR Hyprland .
+.SH OPTIONS
+None. Launch the application to open the settings window.
+.SH WINDOW MANAGERS
+The application detects the current Wayland session and can apply keyboard layout configuration to:
+.TP
+.B labwc
+Config file: ~/.config/labwc/autostart
+.TP
+.B Sway
+Config file: ~/.config/sway/config
+.TP
+.B Wayfire
+Config file: ~/.config/wayfire.ini
+.TP
+.B River
+Config file: ~/.config/river/init
+.TP
+.B Hyprland
+Config file: ~/.config/hypr/hyprland.conf
+.SH BACKUP
+Before modifying any WM configuration, the application creates a backup in:
+.I ~/.config/wl-kbd-config/backups/
+.SH FILES
+.I ~/.config/labwc/environment
+.RS
+labwc XKB configuration file.
+.RE
+.I ~/.config/wl-kbd-config/backups/
+.RS
+Directory for configuration backups.
+.RE
+.SH SEE ALSO
+.BR wl-kbd (1),
+.BR labwc (1),
+.BR setxkbmap (1)
+.SH AUTHOR
+wl-kbd-config is part of the Wayland keyboard layout tooling workspace.

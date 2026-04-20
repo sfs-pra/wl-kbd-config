@@ -1,0 +1,4 @@
+monitor=,preferred,auto,1
+env = WAYLAND_DISPLAY,wayland-1
+env = XKB_DEFAULT_LAYOUT,us
+exec-once = waybar

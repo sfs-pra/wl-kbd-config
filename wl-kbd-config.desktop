@@ -1,0 +1,14 @@
+[Desktop Entry]
+Type=Application
+Name=wl-kbd-config
+Name[ru]=wl-kbd-config
+Name[de]=wl-kbd-config
+Name[fr]=wl-kbd-config
+Name[es]=wl-kbd-config
+Name[zh]=wl-kbd-config
+Comment=Keyboard layout configuration for Wayland WMs
+Comment[ru]=Настройка раскладки клавиатуры для Wayland WM
+Exec=wl-kbd-config
+Terminal=false
+Categories=Settings;Utility;
+Icon=input-keyboard

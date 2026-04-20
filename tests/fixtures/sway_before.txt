@@ -1,0 +1,11 @@
+# Sway config
+set $mod Mod4
+gaps inner 10
+bindsym $mod+Return exec alacritty
+input * {
+    xkb_layout "us"
+    xkb_options "grp:alt_shift_toggle"
+}
+bar {
+    swaybar_command waybar
+}
